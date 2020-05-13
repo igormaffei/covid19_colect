@@ -1,0 +1,249 @@
+patientid,sex,age,finding,survival,view,modality,original_image,resize_image,Dataset_origin
+2,M,65,COVID-19,Y,PA,X-ray,auntminnie-a-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpeg,,Kaggle
+2,M,65,COVID-19,Y,PA,X-ray,auntminnie-b-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpeg,,Kaggle
+2,M,65,COVID-19,Y,PA,X-ray,auntminnie-c-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpeg,,Kaggle
+2,M,65,COVID-19,Y,PA,X-ray,auntminnie-d-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpeg,,Kaggle
+4,F,52,COVID-19,,PA,X-ray,nejmc2001573_f1a.jpeg,,Kaggle
+4,F,52,COVID-19,,PA,X-ray,nejmc2001573_f1b.jpeg,,Kaggle
+5,,,ARDS,,PA,X-ray,ARDSSevere.png,,Kaggle
+6,,,COVID-19,,PA,X-ray,lancet-case2a.jpg,,Kaggle
+6,,,COVID-19,,PA,X-ray,lancet-case2b.jpg,,Kaggle
+3,M,74,SARS,N,PA,X-ray,SARS-10.1148rg.242035193-g04mr34g0-Fig8a-day0.jpeg,,Kaggle
+3,M,74,SARS,N,PA,X-ray,SARS-10.1148rg.242035193-g04mr34g0-Fig8b-day5.jpeg,,Kaggle
+3,M,74,SARS,N,PA,X-ray,SARS-10.1148rg.242035193-g04mr34g0-Fig8c-day10.jpeg,,Kaggle
+7,F,29,SARS,Y,PA,X-ray,SARS-10.1148rg.242035193-g04mr34g04a-Fig4a-day7.jpeg,,Kaggle
+7,F,29,SARS,Y,PA,X-ray,SARS-10.1148rg.242035193-g04mr34g04b-Fig4b-day12.jpeg,,Kaggle
+8,F,42,SARS,,PA,X-ray,SARS-10.1148rg.242035193-g04mr34g05x-Fig5-day9.jpeg,,Kaggle
+9,F,46,SARS,,PA,X-ray,SARS-10.1148rg.242035193-g04mr34g07a-Fig7a-day5.jpeg,,Kaggle
+9,F,46,SARS,,PA,X-ray,SARS-10.1148rg.242035193-g04mr34g07b-Fig7b-day12.jpeg,,Kaggle
+10,F,73,SARS,N,PA,X-ray,SARS-10.1148rg.242035193-g04mr34g09a-Fig9a-day17.jpeg,,Kaggle
+10,F,73,SARS,N,PA,X-ray,SARS-10.1148rg.242035193-g04mr34g09b-Fig9b-day19.jpeg,,Kaggle
+10,F,73,SARS,N,PA,X-ray,SARS-10.1148rg.242035193-g04mr34g09c-Fig9c-day27.jpeg,,Kaggle
+11,M,56,COVID-19,Y,PA,X-ray,1-s2.0-S0140673620303706-fx1_lrg.jpg,,Kaggle
+12,M,42,COVID-19,Y,PA,X-ray,nCoV-radiol.2020200269.fig1-day7.jpeg,,Kaggle
+13,M,35,COVID-19,Y,PA,X-ray,nejmoa2001191_f1-PA.jpeg,,Kaggle
+13,M,35,COVID-19,Y,L,X-ray,nejmoa2001191_f1-L.jpeg,,Kaggle
+13,M,35,COVID-19,Y,PA,X-ray,nejmoa2001191_f3-PA.jpeg,,Kaggle
+13,M,35,COVID-19,Y,L,X-ray,nejmoa2001191_f3-L.jpeg,,Kaggle
+13,M,35,COVID-19,Y,PA,X-ray,nejmoa2001191_f4.jpeg,,Kaggle
+13,M,35,COVID-19,Y,PA,X-ray,nejmoa2001191_f5-PA.jpeg,,Kaggle
+13,M,35,COVID-19,Y,L,X-ray,nejmoa2001191_f5-L.jpeg,,Kaggle
+14,F,,COVID-19,,PA,X-ray,ryct.2020200034.fig2.jpeg,,Kaggle
+15,M,,COVID-19,,PA,X-ray,ryct.2020200034.fig5-day0.jpeg,,Kaggle
+15,M,,COVID-19,,PA,X-ray,ryct.2020200034.fig5-day4.jpeg,,Kaggle
+15,M,,COVID-19,,PA,X-ray,ryct.2020200034.fig5-day7.jpeg,,Kaggle
+16,F,59,COVID-19,Y,PA,X-ray,ryct.2020200028.fig1a.jpeg,,Kaggle
+17,M,54,COVID-19,Y,AP,X-ray,jkms-35-e79-g001-l-a.jpg,,Kaggle
+17,M,54,COVID-19,Y,AP,X-ray,jkms-35-e79-g001-l-b.jpg,,Kaggle
+17,M,54,COVID-19,Y,AP,X-ray,jkms-35-e79-g001-l-c.jpg,,Kaggle
+17,M,54,COVID-19,Y,Axial,CT,jkms-35-e79-g001-l-d.jpg,,Kaggle
+17,M,54,COVID-19,Y,Axial,CT,jkms-35-e79-g001-l-e.jpg,,Kaggle
+18,F,53,COVID-19,,PA,X-ray,radiol.2020200490.fig3.jpeg,,Kaggle
+19,F,55,COVID-19,Y,PA,X-ray,1-s2.0-S0929664620300449-gr2_lrg-a.jpg,,Kaggle
+19,F,55,COVID-19,Y,PA,X-ray,1-s2.0-S0929664620300449-gr2_lrg-b.jpg,,Kaggle
+19,F,55,COVID-19,Y,PA,X-ray,1-s2.0-S0929664620300449-gr2_lrg-c.jpg,,Kaggle
+19,F,55,COVID-19,Y,PA,X-ray,1-s2.0-S0929664620300449-gr2_lrg-d.jpg,,Kaggle
+19,F,55,COVID-19,Y,Axial,CT,1-s2.0-S0929664620300449-gr3_lrg-a.jpg,,Kaggle
+19,F,55,COVID-19,Y,Axial,CT,1-s2.0-S0929664620300449-gr3_lrg-b.jpg,,Kaggle
+19,F,55,COVID-19,Y,Axial,CT,1-s2.0-S0929664620300449-gr3_lrg-c.jpg,,Kaggle
+19,F,55,COVID-19,Y,Axial,CT,1-s2.0-S0929664620300449-gr3_lrg-d.jpg,,Kaggle
+20,M,,COVID-19,,PA,X-ray,covid-19-pneumonia-15-PA.jpg,,Kaggle
+20,M,,COVID-19,,L,X-ray,covid-19-pneumonia-15-L.jpg,,Kaggle
+21,F,50,COVID-19,,PA,X-ray,covid-19-pneumonia-2.jpg,,Kaggle
+22,M,70,COVID-19,,PA,X-ray,covid-19-pneumonia-7-PA.jpg,,Kaggle
+22,M,70,COVID-19,,L,X-ray,covid-19-pneumonia-7-L.jpg,,Kaggle
+22,M,70,COVID-19,,Axial,CT,radiopaedia_org_covid-19-pneumonia-7_85703_0-dcm.nii.gz,,Kaggle
+23,F,70,COVID-19,,PA,X-ray,covid-19-pneumonia-14-PA.png,,Kaggle
+23,F,70,COVID-19,,L,X-ray,covid-19-pneumonia-14-L.png,,Kaggle
+23,F,70,COVID-19,,Axial,CT,radiopaedia_org_covid-19-pneumonia-14_85914_0-dcm.nii.gz,,Kaggle
+24,M,75,COVID-19,,PA,X-ray,covid-19-pneumonia-12.jpg,,Kaggle
+25,M,50,ARDS,,PA,X-ray,acute-respiratory-distress-syndrome-ards-1.jpg,,Kaggle
+26,M,65,ARDS,,PA,X-ray,acute-respiratory-distress-syndrome-ards.jpg,,Kaggle
+27,M,35,ARDS,,PA,X-ray,ards-secondary-to-tiger-snake-bite.png,,Kaggle
+28,M,40,Pneumocystis,,PA,X-ray,pneumocystis-pneumonia-2-PA.png,,Kaggle
+28,M,40,Pneumocystis,,L,X-ray,pneumocystis-pneumonia-2-L.png,,Kaggle
+29,,65,Streptococcus,,PA,X-ray,streptococcus-pneumoniae-pneumonia-1.jpg,,Kaggle
+30,F,30,Streptococcus,,PA,X-ray,pneumonia-7.jpg,,Kaggle
+31,F,25,Streptococcus,,PA,X-ray,streptococcus-pneumoniae-pneumonia-temporal-evolution-1-day0.jpg,,Kaggle
+31,F,25,Streptococcus,,PA,X-ray,streptococcus-pneumoniae-pneumonia-temporal-evolution-1-day1.jpg,,Kaggle
+31,F,25,Streptococcus,,PA,X-ray,streptococcus-pneumoniae-pneumonia-temporal-evolution-1-day2.jpg,,Kaggle
+31,F,25,Streptococcus,,PA,X-ray,streptococcus-pneumoniae-pneumonia-temporal-evolution-1-day3.jpg,,Kaggle
+32,M,43,COVID-19,,AP,X-ray,39EE8E69-5801-48DE-B6E3-BE7D1BCF3092.jpeg,,Kaggle
+32,M,43,COVID-19,,Axial,CT,191F3B3A-2879-4EF3-BE56-EE0D2B5AAEE3.jpeg,,Kaggle
+32,M,43,COVID-19,,Axial,CT,DE488FE1-0C44-428B-B67A-09741C1214C0.jpeg,,Kaggle
+33,M,62,COVID-19,,PA,X-ray,7C69C012-7479-493F-8722-ABC29C60A2DD.jpeg,,Kaggle
+33,M,62,COVID-19,,L,X-ray,44C8E3D6-20DA-42E9-B33B-96FA6D6DE12F.jpeg,,Kaggle
+33,M,62,COVID-19,,Axial,CT,3ED3C0E1-4FE0-4238-8112-DDFF9E20B471.jpeg,,Kaggle
+34,M,45,COVID-19,,AP,X-ray,2C10A413-AABE-4807-8CCE-6A2025594067.jpeg,,Kaggle
+34,M,45,COVID-19,,Axial,CT,FC230FE2-1DDF-40EB-AA0D-21F950933289.jpeg,,Kaggle
+34,M,45,COVID-19,,Axial,CT,66298CBF-6F10-42D5-A688-741F6AC84A76.jpeg,,Kaggle
+35,M,43,COVID-19,,AP,X-ray,E1724330-1866-4581-8CD8-CEC9B8AFEDDE.jpeg,,Kaggle
+35,M,43,COVID-19,,Axial,CT,925446AE-B3C7-4C93-941B-AC4D2FE1F455.jpeg,,Kaggle
+35,M,43,COVID-19,,Axial,CT,6A7D4110-2BFC-4D9A-A2D6-E9226D91D25A.jpeg,,Kaggle
+36,M,67,COVID-19,,PA,X-ray,8FDE8DBA-CFBD-4B4C-B1A4-6F36A93B7E87.jpeg,,Kaggle
+36,M,67,COVID-19,,PA,X-ray,9C34AF49-E589-44D5-92D3-168B3B04E4A6.jpeg,Credit to UOC Radiology ASST Bergamo Est Director Dr Gianluigi Patelli?,Kaggle
+36,M,67,COVID-19,,Axial,CT,21DDEBFD-7F16-4E3E-8F90-CB1B8EE82828.jpeg,,Kaggle
+37,M,58,COVID-19,,PA,X-ray,F2DE909F-E19C-4900-92F5-8F435B031AC6.jpeg,,Kaggle
+37,M,58,COVID-19,,PA,X-ray,31BA3780-2323-493F-8AED-62081B9C383B.jpeg,,Kaggle
+38,F,61,No Finding,,PA,X-ray,F051E018-DAD1-4506-AD43-BE4CA29E960B.jpeg,,Kaggle
+38,F,61,No Finding,,Axial,CT,5083A6B7-8983-472E-A427-570A3E03DDEE.jpeg,,Kaggle
+39,M,50,COVID-19,,PA,X-ray,1312A392-67A3-4EBF-9319-810CF6DA5EF6.jpeg,,Kaggle
+39,M,50,COVID-19,,Axial,CT,396A81A5-982C-44E9-A57E-9B1DC34E2C08.jpeg,,Kaggle
+40,F,46,COVID-19,,PA,X-ray,23E99E2E-447C-46E5-8EB2-D35D12473C39.png,,Kaggle
+41,M,71,COVID-19,,PA,X-ray,7AF6C1AF-D249-4BD2-8C26-449304105D03.jpeg,,Kaggle
+42,F,69,COVID-19,,PA,X-ray,1B734A89-A1BF-49A8-A1D3-66FAFA4FAC5D.jpeg,,Kaggle
+43,M,27,COVID-19,,PA,X-ray,CD50BA96-6982-4C80-AE7B-5F67ACDBFA56.jpeg,,Kaggle
+44,F,78,COVID-19,N,PA,X-ray,85E52EB3-56E9-4D67-82DA-DEA247C82886.jpeg,,Kaggle
+45,F,71,COVID-19,,PA,X-ray,6CB4EFC6-68FA-4CD5-940C-BEFA8DAFE9A7.jpeg,,Kaggle
+46,F,55,COVID-19,,PA,X-ray,01E392EE-69F9-4E33-BFCE-E5C968654078.jpeg,,Kaggle
+47,F,58,COVID-19,,PA,X-ray,F63AB6CE-1968-4154-A70F-913AF154F53D.jpeg,,Kaggle
+48,M,68,COVID-19,,PA,X-ray,2C26F453-AF3B-4517-BB9E-802CF2179543.jpeg,,Kaggle
+49,M,64,COVID-19,,PA,X-ray,93FE0BB1-022D-4F24-9727-987A07975FFB.jpeg,,Kaggle
+50,M,63,COVID-19,,AP,X-ray,B59DD164-51D5-40DF-A926-6A42DD52EBE8.jpeg,,Kaggle
+51,M,47,COVID-19,Y,PA,X-ray,F4341CE7-73C9-45C6-99C8-8567A5484B63.jpeg,,Kaggle
+51,M,47,COVID-19,Y,L,X-ray,D5ACAA93-C779-4E22-ADFA-6A220489F840.jpeg,,Kaggle
+51,M,47,COVID-19,Y,PA,X-ray,E63574A7-4188-4C8D-8D17-9D67A18A1AFA.jpeg,,Kaggle
+51,M,47,COVID-19,Y,L,X-ray,35AF5C3B-D04D-4B4B-92B7-CB1F67D83085.jpeg,,Kaggle
+52,F,72,COVID-19,,AP,X-ray,5CBC2E94-D358-401E-8928-965CCD965C5C.jpeg,,Kaggle
+53,M,53,COVID-19,,AP Supine,X-ray,446B2CB6-B572-40AB-B01F-1910CA07086A.jpeg,,Kaggle
+54,M,73,COVID-19,,PA,X-ray,80446565-E090-4187-A031-9D3CEAA586C8.jpeg,,Kaggle
+55,M,87,COVID-19,,AP,X-ray,7E335538-2F86-424E-A0AB-6397783A38D0.jpeg,,Kaggle
+56,F,82,COVID-19,,AP Supine,X-ray,D7AF463C-2369-492D-908D-BE1911CCD74C.jpeg,,Kaggle
+57,F,67,COVID-19,Y,PA,X-ray,all14238-fig-0001-m-b.jpg,,Kaggle
+57,F,67,COVID-19,Y,PA,X-ray,all14238-fig-0001-m-c.jpg,,Kaggle
+58,M,36,COVID-19,N,AP Supine,X-ray,all14238-fig-0002-m-d.jpg,,Kaggle
+58,M,36,COVID-19,N,AP Supine,X-ray,all14238-fig-0002-m-e.jpg,,Kaggle
+58,M,36,COVID-19,N,AP Supine,X-ray,all14238-fig-0002-m-f.jpg,,Kaggle
+59,F,46,COVID-19,Y,PA,X-ray,1-s2.0-S1684118220300608-main.pdf-001.jpg,,Kaggle
+59,F,46,COVID-19,Y,PA,X-ray,1-s2.0-S1684118220300608-main.pdf-002.jpg,,Kaggle
+60,F,71,COVID-19,,PA,X-ray,ciaa199.pdf-001-a.png,,Kaggle
+61,M,38,COVID-19,,PA,X-ray,ciaa199.pdf-001-b.png,,Kaggle
+62,M,12,COVID-19,,PA,X-ray,ciaa199.pdf-001-c.png,,Kaggle
+63,,,COVID-19,,PA,X-ray,kjr-21-e24-g001-l-a.jpg,,Kaggle
+63,,,COVID-19,,Coronal,CT,kjr-21-e24-g001-l-b.jpg,,Kaggle
+63,,,COVID-19,,Axial,CT,kjr-21-e24-g001-l-c.jpg,,Kaggle
+64,,,COVID-19,,PA,X-ray,kjr-21-e24-g002-l-a.jpg,,Kaggle
+64,,,COVID-19,,Axial,CT,kjr-21-e24-g002-l-b.jpg,,Kaggle
+64,,,COVID-19,,Coronal,CT,kjr-21-e24-g002-l-c.jpg,,Kaggle
+65,,,COVID-19,,PA,X-ray,kjr-21-e24-g003-l-a.jpg,,Kaggle
+65,,,COVID-19,,Coronal,CT,kjr-21-e24-g003-l-b.jpg,,Kaggle
+66,,,COVID-19,,Axial,CT,kjr-21-e24-g004-l-a.jpg,,Kaggle
+66,,,COVID-19,,Axial,CT,kjr-21-e24-g004-l-b.jpg,,Kaggle
+67,,,COVID-19,Y,PA,X-ray,1-s2.0-S1684118220300682-main.pdf-002-a1.png,,Kaggle
+67,,,COVID-19,Y,PA,X-ray,1-s2.0-S1684118220300682-main.pdf-002-a2.png,,Kaggle
+68,,,COVID-19,Y,PA,X-ray,1-s2.0-S1684118220300682-main.pdf-003-b1.png,,Kaggle
+68,,,COVID-19,Y,PA,X-ray,1-s2.0-S1684118220300682-main.pdf-003-b2.png,,Kaggle
+69,F,25,COVID-19,Y,PA,X-ray,gr1_lrg-a.jpg,,Kaggle
+69,F,25,COVID-19,Y,PA,X-ray,gr1_lrg-b.jpg,,Kaggle
+70,M,65,COVID-19,,AP Supine,X-ray,7D2CF6CE-F529-4470-8356-D33FFAF98600.jpeg,,Kaggle
+70,M,65,COVID-19,,PA,X-ray,FE9F9A5D-2830-46F9-851B-1FF4534959BE.jpeg,,Kaggle
+70,M,65,COVID-19,,L,X-ray,4C4DEFD8-F55D-4588-AAD6-C59017F55966.jpeg,,Kaggle
+71,M,61,COVID-19,Y,AP Supine,X-ray,171CB377-62FF-4B76-906C-F3787A01CB2E.jpeg,,Kaggle
+71,M,61,COVID-19,Y,AP Supine,X-ray,5931B64A-7B97-485D-BE60-3F1EA76BC4F0.jpeg,,Kaggle
+71,M,61,COVID-19,Y,AP Supine,X-ray,C6EA0BE5-B01E-4113-B194-18D956675E25.jpeg,,Kaggle
+72,M,60,COVID-19,,AP Supine,X-ray,7EF28E12-F628-4BEC-A8C5-E6277C2E4F60.png,,Kaggle
+73,F,,COVID-19,Y,PA,X-ray,41591_2020_819_Fig1_HTML.webp-day5.png,,Kaggle
+73,F,,COVID-19,Y,PA,X-ray,41591_2020_819_Fig1_HTML.webp-day10.png,,Kaggle
+74,M,50,COVID-19,,AP,X-ray,5e6dd879fde9502400e58b2f.jpeg,,Kaggle
+75,F,75,COVID-19,,PA,X-ray,covid-19-pneumonia-19.jpg,,Kaggle
+76,F,40,COVID-19,Y,PA,X-ray,kjr-21-e25-g001-l-a.jpg,,Kaggle
+77,F,65,COVID-19,,PA,X-ray,03BF7561-A9BA-4C3C-B8A0-D3E585F73F3C.jpeg,,Kaggle
+77,F,65,COVID-19,,L,X-ray,254B82FC-817D-4E2F-AB6E-1351341F0E38.jpeg,,Kaggle
+78,M,,COVID-19,,PA,X-ray,353889E0-A1E8-4F9E-A0B8-F24F36BCFBFB.jpeg,,Kaggle
+79,M,33,COVID-19,,AP,X-ray,figure1-5e73d7ae897e27ff066a30cb-98.jpeg,,Kaggle
+80,M,84,COVID-19,Y,PA,X-ray,figure1-5e75d0940b71e1b702629659-98-right.jpeg,,Kaggle
+81,M,44,COVID-19,,PA,X-ray,figure1-5e71be566aa8714a04de3386-98-left.jpeg,,Kaggle
+82,F,52,COVID-19,,AP Supine,X-ray,1F6343EE-AFEC-4B7D-97F5-62797EE18767.jpeg,,Kaggle
+83,M,40,COVID-19,,AP Supine,X-ray,5A78BCA9-5B7A-440D-8A4E-AE7710EA6EAD.jpeg,,Kaggle
+84,M,60,COVID-19,,AP Supine,X-ray,2B8649B2-00C4-4233-85D5-1CE240CF233B.jpeg,,Kaggle
+85,M,30,COVID-19,,PA,X-ray,2966893D-5DDF-4B68-9E2B-4979D5956C8E.jpeg,,Kaggle
+86,M,60,COVID-19,,PA,X-ray,B2D20576-00B7-4519-A415-72DE29C90C34.jpeg,,Kaggle
+86,M,60,COVID-19,,PA,X-ray,6C94A287-C059-46A0-8600-AFB95F4727B7.jpeg,,Kaggle
+87,F,40,Streptococcus,Y,PA,X-ray,pneumococcal-pneumonia-day0.jpg,,Kaggle
+87,F,40,Streptococcus,Y,PA,X-ray,pneumococcal-pneumonia-day7.jpg,,Kaggle
+87,F,40,Streptococcus,Y,PA,X-ray,pneumococcal-pneumonia-day35.jpg,,Kaggle
+88,M,45,Streptococcus,,PA,X-ray,parapneumonic-effusion-1-PA.png,,Kaggle
+88,M,45,Streptococcus,,L,X-ray,parapneumonic-effusion-1-L.png,,Kaggle
+89,M,75,Streptococcus,,PA,X-ray,right-upper-lobe-pneumonia-9-PA.jpg,,Kaggle
+89,M,75,Streptococcus,,L,X-ray,right-upper-lobe-pneumonia-9-L.jpg,,Kaggle
+90,M,50,Chlamydophila,Y,PA,X-ray,chlamydia-pneumonia-PA.png,,Kaggle
+90,M,50,Chlamydophila,Y,L,X-ray,chlamydia-pneumonia-L.png,,Kaggle
+91,F,80,E.Coli,Y,AP Supine,X-ray,aspiration-pneumonia-5-day0.jpg,,Kaggle
+91,F,80,E.Coli,Y,AP Supine,X-ray,aspiration-pneumonia-5-day3.jpg,,Kaggle
+91,F,80,E.Coli,Y,AP Supine,X-ray,aspiration-pneumonia-5-day10.jpg,,Kaggle
+91,F,80,E.Coli,Y,AP Supine,X-ray,aspiration-pneumonia-5-day27.jpg,,Kaggle
+92,M,60,Streptococcus,Y,PA,X-ray,cavitating-pneumonia-4-day0-PA.jpg,,Kaggle
+92,M,60,Streptococcus,Y,L,X-ray,cavitating-pneumonia-4-day0-L.jpg,,Kaggle
+92,M,60,Streptococcus,Y,PA,X-ray,cavitating-pneumonia-4-day28-PA.png,,Kaggle
+92,M,60,Streptococcus,Y,L,X-ray,cavitating-pneumonia-4-day28-L.png,,Kaggle
+93,M,55,COVID-19,,PA,X-ray,covid-19-pneumonia-30-PA.jpg,,Kaggle
+93,M,55,COVID-19,,L,X-ray,covid-19-pneumonia-30-L.jpg,,Kaggle
+94,F,31,COVID-19,Y,PA,X-ray,6b44464d-73a7-4cf3-bbb6-ffe7168300e3.annot.original.jpeg,,Kaggle
+95,F,70,COVID-19,,PA,X-ray,58cb9263f16e94305c730685358e4e_jumbo.jpeg,"Case courtesy of Dr Edgar Lorente, Radiopaedia.org, rID: 75189",Kaggle
+95,F,70,COVID-19,,L,X-ray,a1a7d22e66f6570df523e0077c6a5a_jumbo.jpeg,"Case courtesy of Dr Edgar Lorente, Radiopaedia.org, rID: 75189",Kaggle
+95,F,70,COVID-19,,PA,X-ray,9fdd3c3032296fd04d2cad5d9070d4_jumbo.jpeg,,Kaggle
+96,M,60,COVID-19,,PA,X-ray,covid-19-pneumonia-rapidly-progressive-admission.jpg,,Kaggle
+96,M,60,COVID-19,,PA,X-ray,covid-19-pneumonia-rapidly-progressive-12-hours.jpg,,Kaggle
+96,M,60,COVID-19,,PA,X-ray,covid-19-pneumonia-rapidly-progressive-3-days.jpg,,Kaggle
+97,F,70,COVID-19,,PA,X-ray,covid-19-rapidly-progressive-acute-respiratory-distress-syndrome-ards-admission.jpg,,Kaggle
+97,F,70,COVID-19,,PA,X-ray,covid-19-rapidly-progressive-acute-respiratory-distress-syndrome-ards-day-1.jpg,,Kaggle
+97,F,70,COVID-19,,PA,X-ray,covid-19-rapidly-progressive-acute-respiratory-distress-syndrome-ards-day-2.jpg,,Kaggle
+97,F,70,"COVID-19, ARDS",,PA,X-ray,covid-19-rapidly-progressive-acute-respiratory-distress-syndrome-ards-day-3.jpg,,Kaggle
+98,M,75,COVID-19,,PA,X-ray,covid-19-infection-exclusive-gastrointestinal-symptoms-pa.png,,Kaggle
+98,M,75,COVID-19,,PA,X-ray,covid-19-infection-exclusive-gastrointestinal-symptoms-l.png,,Kaggle
+99,M,55,COVID-19,,PA,X-ray,covid-19-pneumonia-28.png,,Kaggle
+100,F,62,Klebsiella,,PA,X-ray,klebsiella-pneumonia-1.jpg,,Kaggle
+101,F,40,Pneumocystis,N,PA,X-ray,pneumocystis-jirovecii-pneumonia-3-1.jpg,,Kaggle
+101,F,40,Pneumocystis,N,PA,X-ray,pneumocystis-jirovecii-pneumonia-3-2.jpg,,Kaggle
+101,F,40,Pneumocystis,N,PA,X-ray,pneumocystis-jirovecii-pneumonia-3-3.jpg,,Kaggle
+102,,,Pneumocystis,,PA,X-ray,pneumocystis-pneumonia-1.jpg,,Kaggle
+103,,,Pneumocystis,,PA,X-ray,X-ray_of_cyst_in_pneumocystis_pneumonia_1.jpg,,Kaggle
+104,,,Pneumocystis,,PA,X-ray,pneumocystis-pneumonia-8.jpg,,Kaggle
+105,M,,Pneumocystis,,PA,X-ray,pneumocystis-carinii-pneumonia-1-PA.jpg,,Kaggle
+105,M,,Pneumocystis,,L,X-ray,pneumocystis-carinii-pneumonia-1-L.jpg,,Kaggle
+106,M,50,Pneumocystis,,PA,X-ray,pneumocystis-pneumonia-12.png,,Kaggle
+107,M,25,Pneumocystis,,PA,X-ray,pneumocystis-jiroveci-pneumonia-2.png,,Kaggle
+108,M,50,Pneumocystis,,PA,X-ray,pneumocystis-jirovecii-pneumonia-2.jpg,,Kaggle
+109,M,70,Pneumocystis,,PA,X-ray,pneumocystis-jiroveci-pneumonia-4-PA.png,,Kaggle
+109,M,70,Pneumocystis,,PA,X-ray,pneumocystis-jiroveci-pneumonia-4-L.png,,Kaggle
+110,M,60,Legionella,,PA,X-ray,legionella-pneumonia-1.png,,Kaggle
+111,M,45,Legionella,,PA,X-ray,legionella-pneumonia-2.jpg,,Kaggle
+112,,,COVID-19,Y,PA,X-ray,1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-000-fig1a.png,,Kaggle
+112,,,COVID-19,Y,PA,X-ray,1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-000-fig1b.png,,Kaggle
+113,,,COVID-19,,PA,X-ray,1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-001-fig2a.png,,Kaggle
+113,,,COVID-19,,PA,X-ray,1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-001-fig2b.png,,Kaggle
+114,,,COVID-19,,PA,X-ray,1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-002-fig3a.png,,Kaggle
+114,,,COVID-19,,PA,X-ray,1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-002-fig3b.png,,Kaggle
+115,,,COVID-19,,PA,X-ray,1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-003-fig4a.png,,Kaggle
+115,,,COVID-19,,PA,X-ray,1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-003-fig4b.png,,Kaggle
+116,M,55,COVID-19,,AP,X-ray,covid-19-pneumonia-24-day6.jpg,,Kaggle
+116,M,55,COVID-19,,AP,X-ray,covid-19-pneumonia-24-day7.jpg,"Case courtesy of Dr Derek Smith, Radiopaedia.org, rID: 75251",Kaggle
+116,M,55,COVID-19,,AP Supine,X-ray,covid-19-pneumonia-24-day12.jpg,,Kaggle
+117,M,50,COVID-19,,PA,X-ray,covid-19-pneumonia-evolution-over-a-week-1-day0-PA.jpg,,Kaggle
+117,M,50,COVID-19,,L,X-ray,covid-19-pneumonia-evolution-over-a-week-1-day0-L.jpg,,Kaggle
+117,M,50,COVID-19,,AP Supine,X-ray,covid-19-pneumonia-evolution-over-a-week-1-day3.jpg,,Kaggle
+117,M,50,COVID-19,,AP Supine,X-ray,covid-19-pneumonia-evolution-over-a-week-1-day4.jpg,,Kaggle
+117,M,50,"COVID-19, ARDS",,AP Supine,X-ray,covid-19-pneumonia-evolution-over-a-week-1-day6.jpg,,Kaggle
+118,F,71,COVID-19,Y,PA,X-ray,53EC07C9-5CC6-4BE4-9B6F-D7B0D72AAA7E.jpeg,,Kaggle
+119,F,61,COVID-19,,Axial,CT,coronacases_org_001.nii.gz,,Kaggle
+120,M,47,COVID-19,,Axial,CT,coronacases_org_002.nii.gz,,Kaggle
+121,M,50,COVID-19,,Axial,CT,coronacases_org_003.nii.gz,,Kaggle
+122,M,41,COVID-19,,Axial,CT,coronacases_org_004.nii.gz,,Kaggle
+123,M,46,COVID-19,,Axial,CT,coronacases_org_005.nii.gz,,Kaggle
+124,M,32,COVID-19,,Axial,CT,coronacases_org_006.nii.gz,,Kaggle
+125,F,41,COVID-19,,Axial,CT,coronacases_org_007.nii.gz,,Kaggle
+126,M,38,COVID-19,,Axial,CT,coronacases_org_008.nii.gz,,Kaggle
+127,F,64,COVID-19,,Axial,CT,coronacases_org_009.nii.gz,,Kaggle
+128,F,55,COVID-19,,Axial,CT,coronacases_org_010.nii.gz,,Kaggle
+129,M,50,COVID-19,,Axial,CT,radiopaedia_org_covid-19-pneumonia-4_85506_1-dcm.nii.gz,,Kaggle
+130,F,50,COVID-19,,Axial,CT,radiopaedia_org_covid-19-pneumonia-29_86490_1-dcm.nii.gz,,Kaggle
+131,F,50,COVID-19,,Axial,CT,radiopaedia_org_covid-19-pneumonia-29_86491_1-dcm.nii.gz,,Kaggle
+132,M,70,COVID-19,,AP Supine,X-ray,covid-19-pneumonia-23-day1.jpg,,Kaggle
+132,M,70,COVID-19,,AP,X-ray,covid-19-pneumonia-23-day3.jpg,,Kaggle
+132,M,70,COVID-19,,AP,X-ray,covid-19-pneumonia-23-day9.jpg,,Kaggle
+132,M,70,COVID-19,,Axial,CT,radiopaedia_org_covid-19-pneumonia-23_86359_0-dcm.nii.gz,,Kaggle
+133,M,25,COVID-19,,Axial,CT,radiopaedia_org_covid-19-pneumonia-10_85902_1-dcm.nii.gz,,Kaggle
+133,M,25,COVID-19,,Axial,CT,radiopaedia_org_covid-19-pneumonia-10_85902_3-dcm.nii.gz,,Kaggle
+134,M,40,COVID-19,,Axial,CT,radiopaedia_org_covid-19-pneumonia-36_86526_0-dcm.nii.gz,,Kaggle
+135,M,80,COVID-19,,Axial,CT,radiopaedia_org_covid-19-pneumonia-27_86410_0-dcm.nii.gz,,Kaggle
+136,F,35,COVID-19,,Axial,CT,radiopaedia_org_covid-19-pneumonia-40_86625_0-dcm.nii.gz,,Kaggle
