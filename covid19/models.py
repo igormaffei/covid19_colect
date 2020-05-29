@@ -1,5 +1,8 @@
 from django.contrib.auth.models import User
 from django.db import models
+from django.contrib import admin
+from django.utils.html import mark_safe
+from django.http import HttpResponse
 
 #Constantes
 GENDER_TYPE = (
@@ -95,6 +98,10 @@ class Image(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def image_tag(self):
+        return mark_safe('<img src="images/origin/%s" width="150" height="150" />' % (self.original_image))
+    image_tag.short_description = 'Image'
+
 # Indica se uma determinada imagem foi aprovada e motivo da não aprovação.
 class ImageApproved(models.Model):
     image = models.ForeignKey(Image,
@@ -121,3 +128,90 @@ class ImageApproved(models.Model):
         obj.user = request.user
         super().save_model(request, obj, form, change)
 
+class DiseaseListFilter(admin.SimpleListFilter):
+    """
+    This filter is an example of how to combine two different Filters to work together.
+    """
+    # Human-readable title which will be displayed in the right admin sidebar just above the filter
+    # options.
+    title = 'disease Types'
+
+    # Parameter for the filter that will be used in the URL query.
+    parameter_name = 'disease'
+
+    # Custom attributes
+    related_filter_parameter = 'disease__id__exact'
+
+    def lookups(self, request, model_admin):
+        """
+        Returns a list of tuples. The first element in each
+        tuple is the coded value for the option that will
+        appear in the URL query. The second element is the
+        human-readable name for the option that will appear
+        in the right sidebar.
+        """
+        list_of_questions = []
+        queryset = DiseaseType.objects.order_by('disease_name')
+        if self.related_filter_parameter in request.GET:
+            queryset = queryset.filter(id=request.GET[self.related_filter_parameter])
+        for disease in queryset:
+            list_of_questions.append(
+                (disease.id, disease.disease_name)
+            )
+        return sorted(list_of_questions, key=lambda tp: tp[1])
+
+    def queryset(self, request, queryset):
+        """
+        Returns the filtered queryset based on the value
+        provided in the query string and retrievable via
+        `self.value()`.
+        """
+        # Compare the requested value to decide how to filter the queryset.
+        if self.value():
+            return queryset.filter(id=self.value())
+        return queryset
+
+
+@admin.register(Image)
+class ImageAdmin(admin.ModelAdmin):
+    actions = ['download_csv','download_images']
+    list_display = ('image_tag','original_image', 'disease', 'view_type','image_source', )
+    list_filter = ('disease', DiseaseListFilter)
+    readonly_fields = ['image_tag']
+
+    def download_csv(self, request, queryset):
+        import csv
+        from io import StringIO
+
+        f = StringIO()
+        writer = csv.writer(f)
+        writer.writerow(['original_image', 'disease', 'view_type', 'image_source'])
+        for s in queryset:
+            writer.writerow([s.original_image, s.disease, s.view_type, s.image_source])
+
+        f.seek(0)
+        response = HttpResponse(f, content_type='text/csv')
+        response['Content-Disposition'] = 'attachment; filename=images.csv'
+        return response
+
+    download_csv.short_description = "Download CSV"
+
+    def download_images(self, request, queryset):
+        import zipfile
+        import os
+        from io import BytesIO
+
+        BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+        zip_buffer = BytesIO()
+        with zipfile.ZipFile(zip_buffer, "a", zipfile.ZIP_DEFLATED, False) as zip_file:
+            for s in queryset:
+                filename = os.path.join(BASE_DIR,("images/origin/%s" % s.original_image))
+                zip_file.write(filename, arcname=os.path.basename(filename))
+
+        zip_buffer.seek(0)
+        resp = HttpResponse(zip_buffer, content_type='application/zip')
+        resp['Content-Disposition'] = 'attachment; filename = images.zip'
+        return resp
+
+    download_images.short_description = "Download images as ZIP"
